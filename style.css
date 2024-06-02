@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo img{
+    width: 70px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: black;
+}
+.header .menu ul{
+    display: flex;
+    list-style-type: none;
+}
+.header .menu ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    border-right: 1px solid white;
+}
+.footer{
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .socials img{
+  height: 50px;
+}
+.footer .copyright p{
+    color: white;
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    padding: auto 40px;
+}
+.all-products{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.product-card{
+    width: 25%;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    transition: box-shadow 0.5s;
+}
+
+.product-card:hover{
+    box-shadow: 4px -14px 67px -11px rgba(0,0,0,0.7);
+}
+.product-card>div{
+    margin-bottom: 30px;
+}
+.card-img{
+    width: 100%;
+}
+.card-title>h2{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.card-price{
+    font-size: 25px;
+    text-align: center;
+    color: cadetblue;
+    font-weight: bold;
+}
+.card-btn{
+    width: max-content;
+    margin: auto;
+
+}
+.card-btn>a{
+    text-decoration: none;
+    background-color: #ffb703;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius:20px;
+    transition: all 0.5s;
+}
+.card-btn>a:hover{
+    background-color: #fff;
+    color: #ffb703;
+    border: 1px solid cornflowerblue;
+}
